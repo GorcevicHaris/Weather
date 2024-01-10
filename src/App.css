@@ -15,8 +15,11 @@
 .card{
   width: 420px;
   height: 550px;
-  background-color: rgb(85, 0,255);
+  background-color:blue;
   border-radius: 10px;
+}
+.bot{
+  border-top: 2px solid black;
 }
 .top{
   width: 100%;
@@ -29,14 +32,17 @@
   padding-right: 30px;
   padding-left: 30px;
 }
-
+::placeholder{
+  color: black;
+}
 input{
   width: 83%;
   height: 100%;
   border-radius: 80px;
   border: none;
-  font-size: 25px;
+  font-size: 20px;
   padding: 10px;
+  font-weight: 100
 }
 button{
   width: 13%;
@@ -70,4 +76,15 @@ h1{
   display: flex;
   justify-content: space-between;
   padding: 50px;
+}
+h2{
+  color: white ;
+  font-weight: 500;
+  font-size:30px;
+}
+.sameDiv{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
