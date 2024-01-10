@@ -19,7 +19,7 @@
   border-radius: 10px;
 }
 .bot{
-  border-top: 2px solid black;
+  border-top: 1.5px solid black;
 }
 .top{
   width: 100%;
@@ -36,16 +36,16 @@
   color: black;
 }
 input{
-  width: 83%;
+  width: 95%;
   height: 100%;
   border-radius: 80px;
   border: none;
   font-size: 20px;
-  padding: 10px;
+  padding: 15px;
   font-weight: 100
 }
 button{
-  width: 13%;
+  width: 14%;
   height: 100%;
   border: none;
   cursor: pointer;

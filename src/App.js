@@ -6,8 +6,7 @@ import { useEffect, useState } from "react";
 import { IoSunny } from "react-icons/io5";
 import { BsMoisture } from "react-icons/bs";
 import { PiWind } from "react-icons/pi";
-
-// ... (your existing imports)
+import { MdSevereCold } from "react-icons/md";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -51,7 +50,11 @@ function App() {
           </button>
         </div>
         <div className="mid">
-          <IoSunny color="yellow" fontSize={200} />
+          {dataTemp.temp <= 0 ? (
+            <MdSevereCold color="lightblue" fontSize={200} />
+          ) : (
+            <IoSunny color="yellow" fontSize={200} />
+          )}
           {fasling && dataTemp.temp ? (
             <>
               <h1>{`${dataTemp.temp}°`}</h1>
