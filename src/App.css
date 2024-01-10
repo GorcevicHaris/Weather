@@ -13,8 +13,8 @@
   flex-direction: row;
 }
 .card{
-  width: 500px;
-  height: 650px;
+  width: 420px;
+  height: 550px;
   background-color: rgb(85, 0,255);
   border-radius: 10px;
 }
@@ -61,6 +61,13 @@ button{
   height: 50%;
 }
 h1{
-  font-size: 65px;
-  font-weight: 500
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+}
+.div2{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
 }
