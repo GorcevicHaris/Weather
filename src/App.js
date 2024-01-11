@@ -50,7 +50,7 @@ function App() {
           </button>
         </div>
         <div className="mid">
-          {dataTemp.temp <= 0 ? (
+          {dataTemp.temp < 1 ? (
             <MdSevereCold color="lightblue" fontSize={200} />
           ) : (
             <IoSunny color="yellow" fontSize={200} />
