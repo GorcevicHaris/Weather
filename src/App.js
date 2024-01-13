@@ -14,7 +14,7 @@ function App() {
   const [dataTemp, setDataTemp] = useState([]);
   const [fasling, setFalsing] = useState(false);
   const api_key = "b95eb0fe5bb1f890189a08ceded58688";
-
+  //
   function getData() {
     axios
       .get(
